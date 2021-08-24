@@ -1,4 +1,4 @@
-streamlit
+streamlit==0.85
 matplotlib
 plotly
 imblearn
