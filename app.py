@@ -61,7 +61,7 @@ with a:
     with st.beta_expander("Show/hide valid cases", expanded=True):
         st.write(valid)
 with b:
-    st.write("⛔ Fraud Cases: ", len(fraud))
+    st.write("⛔ Fraud cases: ", len(fraud))
     with st.beta_expander("Show/hide fraud cases", expanded=True):
         st.write(fraud)
 
