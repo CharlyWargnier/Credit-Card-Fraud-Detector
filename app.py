@@ -51,7 +51,8 @@ fraud = df[df.Class == 1]
 valid = df[df.Class == 0]
 outlier_percentage = (df.Class.value_counts()[1] / df.Class.value_counts()[0]) * 100
 
-st.write("## Fraudulent transactions are: %.2f%%" % outlier_percentage)
+# st.write("## Fraudulent transactions: %.2f%%" % outlier_percentage)
+st.write("## %.2f%%" % outlier_percentage + " of fraudulent transactions")
 st.caption("")
 
 a, b = st.beta_columns([10, 10])
